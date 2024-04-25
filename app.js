@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var CompanyAccount_1 = require("./class/CompanyAccount");
+var PeopleAccount_1 = require("./class/PeopleAccount");
+var peopleAccount = new PeopleAccount_1.PeopleAccount(1, 'Nath', 10);
+console.log(peopleAccount);
+peopleAccount.deposit();
+var companyAccount = new CompanyAccount_1.CompanyAccount('DIO', 20);
+companyAccount.deposit();
+console.log(companyAccount);
